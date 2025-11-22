@@ -1,8 +1,7 @@
 project_id = "my-gcp-project"
 network_name = "my-vpc-network"
 region = "us-central1"
-auto_create_subnetworks = false
-mtu = 1460                      
+auto_create_subnetworks = false             
 routing_mode = "REGIONAL"
 subnets = [
     "dev-subnet-1" = {
